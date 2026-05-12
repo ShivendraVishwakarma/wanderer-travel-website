@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: thistle;
+}
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style:none;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.hero {
+    height: 90vh;
+}
+.hero{
+    display: flex;
+    height: 90vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(images/pete-walls-gXNgbsazPg8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+}
+.container h1 {
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    margin-bottom:20px ;
+}
+.container p {
+    color: white;
+    font-weight: 400;
+    max-width: 700px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.container button{
+    padding: 12px 25px;
+    border: none;
+    border-radius:15px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+    box-shadow: 0px 4px 5px teal;
+}
+.container button:hover {
+    transform: scale(1.05);
+}
